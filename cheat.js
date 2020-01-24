@@ -4,7 +4,7 @@
 //Mở Develop Tools trên Chrome hoặc FireFox (F12 hoặc Ctrl + Shift + I) > Console và dán đoạn code dưới đây vào:
 // Open Develop Tools in Chrome or FireFox (F12 or Ctrl + Shift + I) > Console and paste this code:
 var word_idx = 0;
-var interval_per_word = 250; // in milliseconds
+var interval_per_word = 250; // in milliseconds, sửa timeOut ở đây (Edit TimeOut), càng nhỏ chạy càng nhanh (The smaller the value, the faster it runs)
 function hackit(){
     if(word_idx<words.length){
         $('#inputfield').val(words[word_idx] + ' ');
